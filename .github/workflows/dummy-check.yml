@@ -1,7 +1,7 @@
 name: Dummy Check
 
 on:
-  pull-request:
+  pull_request:
     branches:
       - main
 
