@@ -1,6 +1,9 @@
 name: Dummy Check
 
-on: [pull_request]
+on:
+  push:
+    branches:
+      - main
 
 jobs:
   always-pass:
